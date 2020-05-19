@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main{
+	width: 60%;
+	padding: 50px;
+	margin: auto;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+body{
+	background-color: #efefef;
+}
+
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.7s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+h1{
+	text-align: center;
+	font-size: 100px;
+	width: 100%;
+
+}
+
+@font-face {
+    font-family: Myfonts; 
+    src: url(../fonts/Myfonts.ttf); 
+   }
+   h1 {
+    font-family: Myfonts;
+   }
+
+.photo1{
+	background-image: url(../img/csharp.png);
+}
+.photo2{
+	background-image: url(../img/css.png);
+}
+.photo3{
+	background-image: url(../img/html.jpg);
+}
+.photo4{
+	background-image: url(../img/Java.jpg);
+}
+.photo5{
+	background-image: url(../img/Kotlin.png);
+}
+.photo6{
+	background-image: url(../img/Python.jpg);
+}
+.photo7{
+	background-image: url(../img/Ruby.png);
+}
+.photo8{
+	background-image: url(../img/Scala.jpg);
+}
